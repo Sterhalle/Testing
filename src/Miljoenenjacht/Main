@@ -1,0 +1,24 @@
+﻿package Miljoenenjacht;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+    /* spel miljoenenjacht, waarbij de speler 1 koffer kiest en vervolgens alle koffers probeert weg te spelen
+        elke ronde krijgt hij een bod van de bank, die hij weigert of accepteert.
+        Zodra die het bod accepteert, is het spel afgelopen. Zo niet, gaat hij door tot er 1 koffer over is */
+
+        Scanner userInput = new Scanner(System.in);
+        Scanner userKoffer = new Scanner(System.in);
+
+        System.out.println("Welkom bij Miljoenenjacht, mijn naam is Stefan ter Halle" +
+                " en ik ben uw presentator van vanavond. Ben jij er klaar voor om 10 miljoen te winnen?");
+        System.out.println("Wij gaan kijken welke kandidaat het systeem vandaag kiest!");
+        Tread.sleep(5000L);
+        System.out.println("Uit vak 3, op stoel nummer 18! U bent de gelukkige speler, komt u naar voren?");
+
+
+    }
+}
